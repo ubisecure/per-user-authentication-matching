@@ -22,9 +22,9 @@ default = templates/default.properties
 ```
 The corresponding template properties file in this case would be *ubilogin/custom/templates/default.properties*.
 
-Finally include the script *per-user-authentication-matching.js* in the `javascript` property in the template properties as shown below. Also, since Per User Authentication Matching uses jQuery, the script *jquery.js* needs to be present and located **before** *per-user-authentication-matching.js*. The *jquery.js* is provided with SSO so it doesn't need to be defined in the resource index.
+Finally, include the script *per-user-authentication-matching.js* in the `javascript` property in the template properties as shown below.
 ```
-javascript = /resource/script/jquery.js, /resource/script/per-user-authentication-matching.js
+javascript = /resource/script/per-user-authentication-matching.js
 ```
 
 ## Configuration
@@ -173,7 +173,7 @@ script/per-user-authentication-matching-config-default.js = resources/script/per
 ```
 and also in the template properties.
 ```
-javascript = /resource/script/jquery.js, /resource/script/per-user-authentication-matching-config-default.js, /resource/script/per-user-authentication-matching.js
+javascript = /resource/script/per-user-authentication-matching-config-default.js, /resource/script/per-user-authentication-matching.js
 ```
 Note that the configuration file needs to be located before the *per-user-authentication-matching.js* so that the configurations get loaded before the implementation.
 
