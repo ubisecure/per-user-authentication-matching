@@ -27,6 +27,8 @@ Finally, include the script *per-user-authentication-matching.js* in the `javasc
 javascript = /resource/script/per-user-authentication-matching.js
 ```
 
+This script uses jQuery library provided by SSO. SSO always include the latest version of jQuery
+
 ## Configuration
 
 Per User Authentication Matching supports a number of configuration parameters, which are defined as properties in a javascript object named `perUserAuthenticationMatchingParams`. The object  can either be inserted on top of the *per-user-authentication-matching.js*, or alternatively in a separate javascript file (see ***Using separate configuration file*** below).
