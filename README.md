@@ -16,7 +16,7 @@ For the following section we'll use the template named *default* to install the 
 
 Check from the template index (*ubilogin/custom/template.index*) which template properties file corresponds to the *default* template. You should be able to locate the line in which the key `default` is defined. The value is the relative location of the template properties file.
 
-If `default` is not set in the template index, then you'll need add it.
+If `default` is not set in the template index, then you'll need to add it.
 ```
 default = templates/default.properties
 ```
