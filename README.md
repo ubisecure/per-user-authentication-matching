@@ -2,7 +2,7 @@
 
 Per User Authentication Matching is a javascript based frontend user interface (UI) extension to Ubisecure SSO. It updates the flow of entering credentials by hiding irrelevant authentication methods based on method specific regular expression rules.
 
-Compatible with SSO 8.3.0 and later.
+Compatible with SSO 8.9.0 and later. For older SSO versions, see [release 1.0.0](https://github.com/ubisecure/per-user-authentication-matching/blob/1.0.0/README.md)
 
 ## Installation
 
